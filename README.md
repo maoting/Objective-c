@@ -7,4 +7,5 @@ Objective-C数据类型可以分为：基本数据类型、对象类型（指针
  3. afaf
 
 PS: id类型可以表示任何类型，一般只是表示对象类型，不表示基本数据类型。
+![数据类型](http://dl2.iteye.com/upload/attachment/0114/2079/dfccd838-222f-350a-94e9-98f855e96538.jpg)
 
