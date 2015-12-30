@@ -31,9 +31,10 @@ PS: id类型可以表示任何类型，一般只是表示对象类型，不表�
  - 定义：
  - 类定义从@interface开始，它表示了类的接口声明，冒号后指定了该类的父类，@end;表示类定义结束。Objective-c的类定义中类的变量定义与方法定义是分开的，花括号内写变量的定义，花括号外写类的方法定义。
 
- - 具体格式如下：  
-  \-    （void)          setName                :                (NSString)  input;
-方法类型   返回类型        方法名称      方法接受参数        参数类型     参数名
+ - 具体格式如下：
+
+   >       \-        （void)        setName                :               (NSString)     input;
+方法类型   返回类型     方法名称      方法接受参数        参数类型     参数名
     
  - 通用格式如下：
     +/- (返回类型) 名子1:(类型1) 参数1 名子2:(类型2) 参数2 ... 
@@ -41,7 +42,7 @@ PS: id类型可以表示任何类型，一般只是表示对象类型，不表�
     对应的有+号， 代表是类的静态方法，不需要实例化即可调用。一个参数的方法定义：- (void) setName: (NSString*) input;
 二个参数的方法定义：- (void) setName: (NSString*) input  andSecondName:(NSString*) input1;
 
-
+###属性@property
 ```
 //Car.h
 #import<Foundation/Foundation.h>
